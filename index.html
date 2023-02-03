@@ -3,8 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      lang="ES"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Alrededor de los EE.UU</title>
   </head>
-  <body></body>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="images/__logo.svg"
+          alt="Around the U.S"
+        />
+      </header>
+
+      <main class="content">
+        <section class="profile">
+          <img class="profile__avatar" src="images/avatar.jpg" alt="Avatar" />
+          <div class="profile__description">
+            <div class="profile__info">
+              <h1 class="profile__name">Jacques Cousteau</h1>
+              <button class="profile__edit-button">
+                <img
+                  class="profile__edit-btn-image"
+                  src="images/edit_button.png"
+                  alt="Add"
+                />
+              </button>
+            </div>
+            <h2 class="profile__profession">Explorador</h2>
+          </div>
+          <button class="profile__add-button">
+            <img
+              class="profile__add-btn-image"
+              src="images/add_button.png"
+              alt="Add"
+            />
+          </button>
+        </section>
+
+        <section class="elements">
+          <div class="element">
+            <img
+              class="element__image"
+              src="images/Moraine_Lake_Canada.jpg"
+              alt="Lago Moraine Canada, atardecer con vista a las montañas."
+            />
+            <div class="element__description">
+              <h3 class="element__title">Moraine Canada</h3>
+              <img
+                class="element__like-button"
+                src="images/like_button.png"
+                alt="Me gusta"
+              />
+            </div>
+          </div>
+
+          <div class="element">
+            <img
+              class="element__image"
+              src="images/Bowman_Lake_United_States.jpg"
+              alt="Vista lago Bowman en EEUU"
+            />
+            <div class="element__description">
+              <h3 class="element__title">Bowman EEUU</h3>
+              <img
+                class="element__like-button"
+                src="images/like_button.png"
+                alt="Me gusta"
+              />
+            </div>
+          </div>
+
+          <div class="element">
+            <img
+              class="element__image"
+              src="images/Lago_di_Braies_Italy.jpg"
+              alt="Lago di Braies en Italia"
+            />
+            <div class="element__description">
+              <h3 class="element__title">di Braies Italia</h3>
+              <img
+                class="element__like-button"
+                src="images/like_button.png"
+                alt="Me gusta"
+              />
+            </div>
+          </div>
+
+          <div class="element">
+            <img
+              class="element__image"
+              src="images/Lost_Lake_United_States.jpg"
+              alt="Paisaje nocturno del lago perdido EEUU"
+            />
+            <div class="element__description">
+              <h3 class="element__title">Lago perdido EEUU</h3>
+              <img
+                class="element__like-button"
+                src="images/like_button.png"
+                alt="Me gusta"
+              />
+            </div>
+          </div>
+
+          <div class="element">
+            <img
+              class="element__image"
+              src="images/Toblacher_See_Italy.jpg"
+              alt="Imagen del lago con reflejo de las montañas"
+            />
+            <div class="element__description">
+              <h3 class="element__title">Lago Toblacher</h3>
+              <img
+                class="element__like-button"
+                src="images/like_button.png"
+                alt="Me gusta"
+              />
+            </div>
+          </div>
+
+          <div class="element">
+            <img
+              class="element__image"
+              src="images/Tromso_Norway.jpg"
+              alt="Vista al cielo de la aurora boreal en Tromso"
+            />
+            <div class="element__description">
+              <h3 class="element__title">Aurora boreal Tromso</h3>
+              <img
+                class="element__like-button"
+                src="images/like_button.png"
+                alt="Me gusta"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__author">&copy; 2023 Alrededor de los EEUU</p>
+      </footer>
+
+      <div class="popup">
+        <form class="popup__container">
+          <h2 class="popup__title">Edit profile</h2>
+          <input
+            type="text"
+            placeholder="Nombre"
+            class="popup__field popup__field_name"
+          />
+          <input
+            type="text"
+            placeholder="Acerca de mí"
+            class="popup__field popup__field_profession"
+          />
+
+          <button class="popup__save-button">Guardar</button>
+        </form>
+        <img
+          class="popup__close-button"
+          src="images/close_icon.png "
+          alt="Cerrar"
+        />
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
 </html>

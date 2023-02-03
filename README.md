@@ -2,15 +2,25 @@
 
 ### Descripción general
 
-* Figma
-* Imágenes
+El objetivo de este proyecto es poder reflejar en las mejores imagenes seleccionadas los distintos paisajes que pueden contemplarse aldedor de los Estados Unidos. Trasladate a cada lugar contemplando las mismas junto con una muy breve indicación del lugar en que se encuentran.
 
-**Figma**
+## Funcionalidades
 
-* [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
+- Galería gráfica
+- Funcionalidad para editar tu perfil
+- Funcionalidad para agregar imágenes a la galería
+- Opción de indicar "like" en las impágenes
 
-**Imágenes**
+## GitHub Enlace
 
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido. 
+- [Enlace al proyecto en GitHub](ENLACE)
 
-¡Esperamos que te diviertas con JavaScript!
+## Técnologías utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Planes de finalización del proyecto
+
+Actualmente el proyecto se encuentra en etapa de desarrollo, por lo cual estaremos subiendo actualizaciones del mismo incorporando algunas de las funcionalidades mencionadas, entre otras.

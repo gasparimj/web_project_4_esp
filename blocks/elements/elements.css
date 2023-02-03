@@ -1,0 +1,25 @@
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 690px) and (max-width: 900px) {
+  .elements {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 690px) {
+  .elements {
+    gap: 17px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px) {
+  .elements {
+    justify-content: space-around;
+  }
+}
