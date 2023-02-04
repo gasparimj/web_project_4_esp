@@ -1,11 +1,11 @@
-let popup = document.querySelector(".popup");
-let editButton = document.querySelector(".profile__edit-button");
-let closeButton = document.querySelector(".popup__close-button");
+const popup = document.querySelector(".popup");
+const editButton = document.querySelector(".profile__edit-button");
+const closeButton = document.querySelector(".popup__close-button");
 let profileName = document.querySelector(".profile__name");
 let profileProfession = document.querySelector(".profile__profession");
 let inputName = document.querySelector(".popup__field_name");
 let inputProfession = document.querySelector(".popup__field_profession");
-let saveButton = document.querySelector(".popup__save-button");
+const saveButton = document.querySelector(".popup__save-button");
 
 function togglePopup() {
   popup.classList.toggle("popup_opened");
